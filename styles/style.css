@@ -105,7 +105,7 @@
   line-height: 1.2;
 }
 
-.footer__column-link:hover {
+.places-russia-link:hover {
   opacity: 80%;
   transition: opacity 0.3s linear 0.3s;
 }
@@ -118,6 +118,7 @@
 }
 
 .place-russia__paragraph {
+  max-width: 100%;
   margin: 0;
   padding: 0;
   grid-area: "paragraph";
@@ -132,4 +133,5 @@
 
 /*.place-russia__paragraph:nth-of-type(2n) {
   margin-top: 26px;
-}*/
+}
+*/
