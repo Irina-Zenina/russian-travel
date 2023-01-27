@@ -7,11 +7,6 @@
   text-decoration: none;
 }
 
-.header__link.active {
-  position: relative;
-  border-bottom: 1px solid #ffffff;
-}
-
 .header__link:hover {
   border-bottom: 1px solid #ffffff;
 }
