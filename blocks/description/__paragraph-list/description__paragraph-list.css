@@ -1,6 +1,7 @@
-.description__paragraph-facts {
+.description__paragraph-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
   text-align: left;
   font-size: 12px;
   font-weight: 400;
