@@ -1,0 +1,29 @@
+.places-russia__image {
+  margin: 0;
+  padding: 0;
+  grid-area: "image";
+  max-width: 460px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-russia__image {
+    max-width: 440px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-russia__image {
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places-russia__image {
+    margin-bottom: 32px;
+    width: 100%;
+    transform: scale(1.1, 1);
+  }
+}

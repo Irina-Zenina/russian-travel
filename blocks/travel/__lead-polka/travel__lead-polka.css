@@ -1,8 +1,8 @@
 .travel__lead-polka {
   margin: 0;
   padding: 0;
-  width: 100%;
   max-width: 984px;
+  width: 100%;
   margin-left: 148px;
   margin-right: 148px;
   object-position: center;
@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 1024px) {
   .travel__lead-polka {
-    max-width: 90%;
+    max-width: 928px;
+    width: 90%;
     margin-left: 48px;
     margin-right: 48px;
     object-position: center;
@@ -20,7 +21,7 @@
 
 @media screen and (max-width: 900px) {
   .travel__lead-polka {
-    max-width: 100%;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -28,7 +29,7 @@
 
 @media screen and (max-width: 780px) {
   .travel__lead-polka {
-    max-width: 100%;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -36,8 +37,6 @@
 
 @media screen and (max-width: 480px) {
   .travel__lead-polka {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
   }
 }

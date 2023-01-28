@@ -1,0 +1,11 @@
+.places-russia__link {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.places-russia-link:hover {
+  opacity: 80%;
+  transition: opacity 0.3s linear 0.3s;
+}
