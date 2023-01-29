@@ -24,3 +24,6 @@
 @import url(../blocks/places-russia/__link/places-russia__link.css);
 @import url(../blocks/places-russia/__image/places-russia__image.css);
 @import url(../blocks/places-russia/__paragraph/place-russia__paragraph.css);
+@import url(../blocks/cover/__baikal/cover__baikal.css);
+@import url(../blocks/cover/__baikal-title/cover__baikal-title.css);
+@import url(../blocks/cover/__baikal-subtitle/cover__baikal-subtitle.css);

@@ -1,0 +1,55 @@
+.cover__baikal {
+  background-image: url(../../../images/cover-trains.jpg);
+  display: flex;
+  background-size: cover;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.cover__baikal::before {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__baikal:hover {
+  content: "";
+  width: 100%;
+  opacity: 0.8;
+  background: #2a2c2f;
+  z-index: 2;
+}
+
+.cover__baikal:hover::before {
+  z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__baikal {
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__baikal {
+    max-height: 490px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover__baikal {
+    max-height: 200px;
+  }
+}

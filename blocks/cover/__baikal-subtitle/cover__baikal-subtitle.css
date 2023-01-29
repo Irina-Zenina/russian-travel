@@ -1,0 +1,29 @@
+.cover__baikal-subtitle {
+  position: relative;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 412px;
+  margin-right: 412px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 480px) {
+  .cover__baikal-subtitle {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.14;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
