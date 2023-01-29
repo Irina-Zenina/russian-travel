@@ -40,7 +40,8 @@
   .photo-gallery {
     max-width: 100%;
     grid-template-columns: 1fr;
-    margin-top: 88px;
+    row-gap: 7px;
+    margin-top: 67px;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 88px;
