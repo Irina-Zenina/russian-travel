@@ -15,12 +15,12 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .places-russia__title {
-    min-width: 288px;
+    padding-left: 16px;
+    max-width: 288px;
     font-size: 32px;
     font-weight: 900;
     line-height: 1.09;
-    margin-bottom: 32px;
   }
 }

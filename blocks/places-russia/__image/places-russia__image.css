@@ -22,9 +22,5 @@
 
 @media screen and (max-width: 320px) {
   .places-russia__image {
-    margin-bottom: 32px;
-    width: 100%;
-    transform: scale(1.1, 1);
-    overflow: hidden;
   }
 }

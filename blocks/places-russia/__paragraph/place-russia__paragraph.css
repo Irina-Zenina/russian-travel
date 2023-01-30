@@ -1,7 +1,7 @@
 .place-russia__paragraph {
-  max-width: 100%;
   margin: 0;
   padding: 0;
+  max-width: 100%;
   grid-area: "paragraph";
   font-size: 18px;
   font-weight: 400;
@@ -20,8 +20,10 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .places-russia__image {
-    margin-bottom: 50px;
+@media screen and (max-width: 320px) {
+  .places-russia__paragraph {
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

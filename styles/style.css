@@ -1,3 +1,31 @@
+.places-russia {
+  margin: 0;
+  padding: 0;
+  padding-left: 148px;
+  padding-right: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-russia {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-russia {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places-russia {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 .footer__columns {
   padding: 0;
   display: flex;
@@ -25,7 +53,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 92px;
+    margin-top: 64px;
     margin-left: 16px;
     margin-right: 16px;
   }
