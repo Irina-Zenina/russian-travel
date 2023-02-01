@@ -91,7 +91,6 @@
   padding: 0;
   width: 100%;
   max-width: 720px;
-  margin-top: 56px;
   margin-left: 212px;
   margin-right: 212px;
   margin-bottom: 32px;
@@ -195,15 +194,17 @@
 .photo-gallery {
   margin: 0;
   padding: 0;
+  margin-right: 48px;
+  margin-left: 48px;
+  box-sizing: border-box;
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  max-width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-top: 92px;
-  margin-bottom: 92px;
+  margin-bottom: 80px;
 }
 
 .photo-gallery__image {
@@ -307,6 +308,7 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
 }
 
 .cover-baikal__link {
@@ -380,6 +382,7 @@
 
 .footer {
   max-width: 1280px;
+  margin-top: 85px;
   margin-right: 48px;
   margin-left: 48px;
   margin-bottom: 24px;
@@ -392,7 +395,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 92px;
 }
 
 .footer__links {
