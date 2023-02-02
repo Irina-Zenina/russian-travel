@@ -34,7 +34,14 @@
 
 @media screen and ((min-width: 768px) and (max-width: 1023px)) {
   .header__menu {
-    margin: 0 24px 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and ((min-width: 320px) and (max-width: 767px)) {
+  .header__menu {
+    margin: 16px 16px 48px;
   }
 }
 
@@ -78,17 +85,14 @@
 .content {
   min-width: 320px;
   padding: 0;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and ((min-width: 1024px) and (max-width: 1279)) {
+@media screen and ((min-width: 1024px) and (max-width: 1279px)) {
   .content {
     padding-left: 48px;
     padding-right: 48px;
@@ -115,9 +119,25 @@
 
 @media screen and ((min-width: 768px) and (max-width: 1023px)) {
   .travel {
+    margin-bottom: 80px;
+  }
+}
+
+.travel__text {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and ((min-width: 768px) and (max-width: 1023px)) {
+  .travel__text {
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 88px;
   }
 }
 
@@ -299,7 +319,7 @@
   .places-russia {
     max-width: 928px;
     padding-left: 48px;
-    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
@@ -324,6 +344,19 @@
     "image paragraph";
 }
 
+@media screen and ((min-width: 320px) and (max-width: 767px)) {
+  .places-russia__item {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    column-gap: 0;
+    grid-template-areas:
+      "title"
+      "url"
+      "image"
+      "paragraph";
+  }
+}
+
 @media screen and ((min-width: 1024px) and (max-width: 1279px)) {
   .places-russia__item {
     max-width: 928px;
@@ -335,6 +368,7 @@
   .places-russia__item {
     max-width: 720px;
     column-gap: 28px;
+    margin-bottom: 72px;
   }
 }
 
@@ -351,6 +385,7 @@
   .places-russia__title {
     font-size: 42px;
     line-height: 1.09;
+    min-width: 340px;
   }
 }
 
@@ -412,12 +447,19 @@
 .place-russia__paragraph {
   margin: 0;
   padding: 0;
-  max-width: 484px;
+  /* max-width: 484px; */
   width: 100%;
   grid-area: "paragraph";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
+}
+
+@media screen and ((min-width: 768px) and (max-width: 1023px)) {
+  .place-russia__paragraph {
+    font-size: 18px;
+    max-width: 352px;
+  }
 }
 
 .place-russia__paragraph:nth-of-type(2n) {
@@ -425,9 +467,8 @@
 }
 
 @media screen and ((min-width: 768px) and (max-width: 1023px)) {
-  .place-russia__paragraph {
-    font-size: 18px;
-    max-width: 456px;
+  .place-russia__paragraph:nth-of-type(2n) {
+    margin-top: 25px;
   }
 }
 
@@ -471,17 +512,17 @@
   left: 0;
 }
 
-@media screen and ((min-width: 1024) and (max-width: 1279px)) {
+@media screen and ((min-width: 1024px) and (max-width: 1279px)) {
   .cover-baikal {
     padding: 195px 232px;
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and ((min-width: 768px) and (max-width: 1203px)) {
   .cover-baikal {
     padding: 115px 104px;
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
