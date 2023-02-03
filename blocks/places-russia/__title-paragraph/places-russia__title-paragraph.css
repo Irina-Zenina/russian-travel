@@ -1,0 +1,9 @@
+.places-russia__title-paragraph {
+  margin: 0;
+  padding: 0;
+  grid-area: "url";
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
