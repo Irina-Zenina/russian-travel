@@ -3,7 +3,7 @@
   padding: 0 148px;
 }
 
-@media screen and ((min-width: 1024px) and (max-width: 1279px)) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places-russia {
     max-width: 928px;
     width: 100%;
@@ -12,14 +12,14 @@
   }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1023px)) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .places-russia {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and ((min-width: 320px) and (max-width: 767px)) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .places-russia {
     width: 100%;
     padding-left: 0;
