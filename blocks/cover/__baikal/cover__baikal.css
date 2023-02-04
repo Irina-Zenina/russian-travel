@@ -28,7 +28,6 @@
 
 .cover__baikal:hover::before {
   content: "";
-  content: "";
   position: absolute;
   width: 100%;
   opacity: 0.8;
