@@ -45,15 +45,16 @@
   }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1203px)) {
+@media screen and ((min-width: 500px) and (max-width: 1203px)) {
   .cover__baikal {
     padding: 115px 104px;
     min-height: 480px;
   }
 }
 
-@media screen and ((min-width: 320px) and (max-width: 767px)) {
+@media screen and ((min-width: 320px) and (max-width: 499px)) {
   .cover__baikal {
+    min-height: 200px;
     padding: 33px 16px;
   }
 }
