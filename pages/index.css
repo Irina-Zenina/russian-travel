@@ -31,7 +31,7 @@
 @import url(../blocks/places-russia/__link/places-russia__link.css);
 @import url(../blocks/places-russia/__image/places-russia__image.css);
 @import url(../blocks/places-russia/__paragraph/places-russia__paragraph.css);
-@import url(../blocks/cover/__baikal/cover__baikal.css);
+@import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__baikal-link/cover__baikal-link.css);
 @import url(../blocks/cover/__baikal-text/cover__baikal-text.css);
 @import url(../blocks/cover/__baikal-title/cover__baikal-title.css);
