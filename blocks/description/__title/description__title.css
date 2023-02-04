@@ -6,9 +6,10 @@
   line-height: 1.07;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and ((min-width: 320px) and (max-width: 767px)) {
   .description__title {
     font-size: 32px;
-    line-height: 1.1;
+    font-weight: 900;
+    line-height: 1.09;
   }
 }
