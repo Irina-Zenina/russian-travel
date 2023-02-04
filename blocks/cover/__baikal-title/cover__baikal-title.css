@@ -1,7 +1,8 @@
 .cover__baikal-title {
-  margin: 0 0 27px;
+  margin: 0 0 27px 0 27px;
   padding: 0;
   position: relative;
+  max-width: 560px;
   max-width: 560px;
   width: 100%;
   text-align: center;
@@ -10,9 +11,13 @@
   font-weight: 900;
   line-height: 1.05;
   z-index: 3;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.05;
+  z-index: 3;
 }
 
-@media screen and (min-width: 320px) and (max-width: 499px) {
+@media screen and (min-width: 320px) and (max-width: 540px) {
   .cover__baikal-title {
     max-width: 288px;
     margin-bottom: 16px;
