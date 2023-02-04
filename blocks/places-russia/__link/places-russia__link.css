@@ -9,7 +9,7 @@
   line-height: 1.2;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 540px) {
   .places-russia__link {
     padding-right: 16px;
     padding-left: 16px;

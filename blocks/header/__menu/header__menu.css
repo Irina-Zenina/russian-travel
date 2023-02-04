@@ -7,20 +7,20 @@
   margin: 28px 48px 56px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .header__menu {
     margin-bottom: 48px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header__menu {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .header__menu {
     margin: 16px 16px 48px;
   }
