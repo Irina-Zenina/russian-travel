@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (min-width: 541px) and (max-width: 767px) {
+@media (min-width: 541px) and (max-width: 767px) {
   .footer {
     margin: 64px 0 0;
     padding: 0 16px;
