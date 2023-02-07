@@ -5,7 +5,7 @@
   text-align: left;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 163%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .description__paragraph {
     margin-bottom: 34px;
   }

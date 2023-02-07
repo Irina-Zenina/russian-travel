@@ -9,7 +9,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .description__title {
     font-size: 32px;
-    font-weight: 900;
     line-height: 1.09;
   }
 }
