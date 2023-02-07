@@ -1,5 +1,4 @@
 .header__link_active {
-  border-bottom: 1px solid #ffffff;
   text-decoration-line: underline;
   text-underline-offset: 4px;
 }

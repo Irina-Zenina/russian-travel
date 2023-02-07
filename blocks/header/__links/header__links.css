@@ -1,10 +1,12 @@
 .header__links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
   flex-wrap: wrap;
-  margin: 0;
-  margin-top: 18px;
+  margin: 18px 0 0;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header__links {
     margin-top: 16px;
   }
