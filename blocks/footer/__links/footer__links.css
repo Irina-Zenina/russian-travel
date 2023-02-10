@@ -12,9 +12,8 @@
 @media (max-width: 690px) {
   .footer__links {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
-    row-gap: 32px;
-    margin-top: 10px;
+    row-gap: 30px;
   }
 }

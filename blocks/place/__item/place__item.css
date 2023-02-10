@@ -23,7 +23,7 @@
   .place__item {
     max-width: 720px;
     column-gap: 28px;
-    margin-bottom: 65px;
+    margin-bottom: 73px;
   }
 }
 
@@ -54,6 +54,6 @@
       "url"
       "image"
       "paragraph";
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 }
