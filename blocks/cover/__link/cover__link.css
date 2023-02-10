@@ -16,11 +16,5 @@
 }
 
 .cover__link:hover::before {
-  content: "";
-  position: absolute;
-  width: 100%;
   opacity: 0.8;
-  z-index: 2;
-  top: 0;
-  right: 0;
 }
